@@ -58,6 +58,17 @@ main {
     padding: 50px 0;
 }
 
+.section-container {
+    border: dashed 2px #eee;
+    margin: 20px;
+    min-height: 400px;
+    padding: 30px;
+}
+
+.section-header {
+    font-family: 'Permanent Marker', 'Lato', sans-serif;
+}
+
 footer {
     background-image: url(../images/dark-honeycomb.png);
     background-repeat: repeat;
