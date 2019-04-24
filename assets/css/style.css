@@ -16,20 +16,24 @@ body {
     text-align: center;
 }
 
+/*-------------------
+    HEADER
+-------------------*/
 header {
     background-image: url(../images/workspace.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     flex: 1 0 auto;
     height: 500px;
 }
 
-header #header-wrapper {
+#header-wrapper {
     position: relative;
 }
 
-header #pattern-overlay {
+#pattern-overlay {
     background-image: url(../images/dark-honeycomb.png);
+    background-position: center;
     background-repeat: repeat;
     height: 100%;
     filter: opacity(.6);
@@ -37,7 +41,7 @@ header #pattern-overlay {
     position: absolute;
 }
 
-header #header-text {
+#header-text {
     border: solid 3px #fff;
     color: #fff;
     font-family: 'Permanent Marker', 'Lato', sans-serif;
@@ -46,7 +50,7 @@ header #header-text {
     z-index: 1;
 }
 
-header #subhead-text {
+#subhead-text {
     color: #fff;
     font-size: 2rem;
     margin-bottom: -30px 0 15px;
@@ -54,6 +58,9 @@ header #subhead-text {
     z-index: 1;
 }
 
+/*-------------------
+    MAIN
+-------------------*/
 main {
     padding: 50px 0;
 }
@@ -62,17 +69,80 @@ main {
     border: dashed 2px #eee;
     margin: 20px;
     min-height: 400px;
-    padding: 30px;
+    padding: 50px;
 }
 
 .section-header {
     font-family: 'Permanent Marker', 'Lato', sans-serif;
 }
 
+/*-------------------
+    ABOUT
+-------------------*/
+
+
+/*-------------------
+    WORK
+-------------------*/
+
+
+/*-------------------
+    SKILLS
+-------------------*/
+
+
+/*-------------------
+    EXPERIENCE
+-----
+--------------*/
+
+/*-------------------
+    EDU
+-------------------*/
+
+
+/*-------------------
+    CONTACT
+-------------------*/
+
+
+/*-------------------
+    FOOTER
+-------------------*/
 footer {
     background-image: url(../images/dark-honeycomb.png);
     background-repeat: repeat;
     margin-bottom: auto;
     min-height: 200px;
 
+}
+
+/*-------------------
+    MEDIA QUERIES
+-------------------*/
+@media screen and (max-width: 580px) {
+    #header-text {
+        font-size: 3rem;
+    }
+    #subhead-text {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    #header-text {
+        font-size: 2.5rem;
+    }
+    #subhead-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #header-text {
+        font-size: 2rem;
+    }
+    #subhead-text {
+        font-size: 1.1rem;
+    }
 }
