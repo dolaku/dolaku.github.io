@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://fonts.googleapis.com/css?family=Lato|Permanent+Marker" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Donna Kuang</title>
@@ -25,41 +27,113 @@
     </header>
 
     <main>
-        <nav class="mx-auto">
+        <div class="mx-auto">
             <!-- Tab Labels -->
-            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <ul class="nav nav-tabs justify-content-center mb-5" id="myTab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">About Me</a>
+                    <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab"
+                        aria-controls="about" aria-selected="true">About Me</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" id="portfolio-tab" data-toggle="tab" href="#portfolio" role="tab" aria-controls="portfolio" aria-selected="false">Portfolio</a>
+                    <a class="nav-link" id="portfolio-tab" data-toggle="tab" href="#portfolio" role="tab"
+                        aria-controls="portfolio" aria-selected="false">Portfolio</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                    <a class="nav-link" id="skills-tab" data-toggle="tab" href="#skills" role="tab"
+                        aria-controls="skills" aria-selected="false">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" id="experience-tab" data-toggle="tab" href="#experience" role="tab"
+                        aria-controls="experience" aria-selected="false">Experience</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" id="edu-tab" data-toggle="tab" href="#edu" role="tab"
+                        aria-controls="edu" aria-selected="false">Education</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                        aria-controls="contact" aria-selected="false">Contact</a>
                 </li>
             </ul>
 
             <!-- Sections -->
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
-                    About stuff
-                </div>
-                <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">
-                    Portfolio stuff
-                </div>
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                     <div class="row">
                         <div class="col-12">
                             <div>
-                                <h4>Contact Details</h4>
+                                <h2 class="section-header">About Me</h4>
 
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">
+                    <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <h2 class="section-header">Portfolio</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                    <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <h2 class="section-header">Skills</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                    <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <h2 class="section-header">Experience</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="edu" role="tabpanel" aria-labelledby="edu-tab">
+                    <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <h2 class="section-header">Education</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <iframe
+                                    src="https://docs.google.com/forms/d/e/1FAIpQLSdH0ltHlC83ONQyeSX480Q4mjLRNRT9uIhfWYOpqsPY67IprA/viewform?embedded=true"
+                                    width="640" height="978" frameborder="0" marginheight="0"
+                                    marginwidth="0">Loading...</iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </nav>
-<!--
+        </div>
+        <!--
         <div class="row section-container" id="about">
             <div class="col-12">
                 <h3 class="section-header">About Me</h3>
@@ -109,8 +183,12 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
