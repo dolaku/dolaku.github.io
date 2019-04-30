@@ -15,6 +15,16 @@ body {
     justify-content: space-between;
     text-align: center;
 }
+.link {
+    color: #007fae;
+    text-transform: uppercase;
+}
+
+.link:hover {
+    filter: hue-rotate(90deg);
+    font-weight: 800;
+    text-decoration: none;
+}
 
 /*-------------------
     HEADER
@@ -143,16 +153,6 @@ main {
     opacity: .75;
     text-shadow: 0 0 3px #fff;
     transition: .2s;
-}
-#portfolio .link {
-    color: #007fae;
-    text-transform: uppercase;
-}
-
-#portfolio .link:hover {
-    filter: hue-rotate(90deg);
-    font-weight: 800;
-    text-decoration: none;
 }
 
 /*-------------------
