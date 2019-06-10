@@ -16,16 +16,17 @@ body {
     text-align: center;
 }
 .link {
-    color: #fff;
-    font-size: 1.5rem;
+    color: #000;
+    font-size: 2rem;
     position: absolute;
-    bottom: 30px;
+    top: 0px;
     right: 10px;
 }
 
-.link:hover {
+.link:hover,
+.link-email:hover {
     filter: hue-rotate(90deg);
-    font-weight: 800;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -193,7 +194,11 @@ footer {
     background-repeat: repeat;
     margin-bottom: auto;
     min-height: 200px;
+}
 
+.link-email {
+    color: #007fae;
+    text-transform: uppercase;
 }
 
 /*-------------------
