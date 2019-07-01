@@ -112,13 +112,30 @@ main {
 }
 
 .nav-tabs {
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid #007fae;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #007fae;
+    border-color: #007fae #007fae #007fae;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #007fae #007fae #007fae;
 }
 
 /*-------------------
     ABOUT
 -------------------*/
-
+#profile-pic {
+    border-radius: 50%;
+    filter: grayscale(0.4);
+    height: 200px;
+    margin: 20px;
+    object-fit: cover;
+    width: 200px;
+}
 
 /*-------------------
     PORTFOLIO
@@ -146,8 +163,8 @@ main {
 #portfolio .gallery h4 {
     background-color: #007fae;
     color: #fff;
-    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-    font-size: 1.25rem;
+    font-family: 'Permanent Marker', 'Lato', sans-serif;
+    font-size: 1.5rem;
     padding: 15px;
     position: absolute;
         bottom: 5%;
@@ -168,15 +185,19 @@ main {
     SKILLS
 -------------------*/
 .progress {
-    height: 2.5rem;
+    height: 2rem;
     margin: 10px 0;
 }
 .progress-bar {
-    background-color: #007fae;
+    background-color: #005675;
     border-radius: .25rem;
+    font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
     padding-left: 15px;
     text-align: left;
+}
+.progress-bar-purple {
+    background-color: #450758;    
 }
 .progress:nth-child(2n) .progress-bar {
     background-image: linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
