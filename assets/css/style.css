@@ -207,7 +207,9 @@ main {
 /*-------------------
     EXPERIENCE
 -------------------*/
-
+#experience .section-body {
+    max-width: 100%;
+}
 
 /*-------------------
     EDU
