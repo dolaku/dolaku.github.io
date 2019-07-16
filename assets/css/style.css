@@ -211,6 +211,16 @@ main {
     max-width: 100%;
 }
 
+#experience h5 {
+    font-style: italic;
+}
+
+#experience a,
+#experience a:hover {
+    color: #fff;
+}
+
+
 /*-------------------
     EDU
 -------------------*/
