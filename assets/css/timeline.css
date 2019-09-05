@@ -111,13 +111,13 @@
 .main-timeline .timeline:nth-child(2n-1) .inner-content{ background: #450758; }
 .main-timeline .timeline:nth-child(2n-1) .timeline-icon{ color: #450758; }
 
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 1110px){
     .main-timeline .timeline-icon{
-        font-size: 50px;
+        font-size: 45px;
         left: 14%;
     }
     .main-timeline .timeline:nth-child(2n) .timeline-icon{
-        font-size: 50px;
+        font-size: 45px;
         right: 14%;
     }
 }
@@ -152,10 +152,14 @@
         width: 72%;
         float: right;
     }
+    .main-timeline .timeline-icon{
+        font-size: 55px;
+        left: 12%;
+    }
     .main-timeline .timeline:nth-child(2n) .timeline-icon{
-        font-size: 60px;
+        font-size: 55px;
         right: auto;
-        left: 14%;
+        left: 12%;
     }
 }
 @media only screen and (max-width: 479px){
