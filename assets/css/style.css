@@ -106,6 +106,10 @@ main .section-body {
 /*-------------------
     NAV
 -------------------*/
+.nav {
+  border-bottom: 1px solid #005675;
+}
+
 .nav a {
   color: #005675;
   text-transform: uppercase;
@@ -117,17 +121,13 @@ main .section-body {
   text-decoration: none;
 }
 
-.nav .nav-tabs {
-  border-bottom: 1px solid #005675;
-}
-
-.nav .nav-tabs .nav-link.active {
+.nav .nav-link.active {
   color: #fff;
   background-color: #005675;
   border-color: #005675 #005675 #005675;
 }
 
-.nav .nav-tabs .nav-link:hover {
+.nav .nav-link:hover {
   border-color: #450758 #450758 #450758;
 }
 
